@@ -1,0 +1,3 @@
+.body {
+  height: calc(var(--height-app) - 128px);
+}
