@@ -1,12 +1,10 @@
-import React, { useEffect } from "react";
+import React from "react";
 import HeaderChat from "../../components/HeaderChat";
 import FooterChat from "../../components/FooterChat";
 import style from "./Chat.module.css";
 import clsx from "clsx";
 
 const Chat = () => {
- 
-
   return (
     <div>
       <HeaderChat />
