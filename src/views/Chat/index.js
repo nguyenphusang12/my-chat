@@ -6,16 +6,16 @@ import clsx from "clsx";
 
 const Chat = () => {
   return (
-    <div>
+    <div className="">
       <HeaderChat />
-      <div className={clsx("text-gray-600 text-xl py-2", style.body)}>
+      <div className={clsx("text-gray-600 text-xl py-2 px-2", style.body)}>
         {/* ***** */}
 
         <div className="max-w-[80%] flex ml-auto justify-end mb-2">
-          <div className="max-w-[80%] py-2 px-4 break-words bg-primary rounded-t-[30px] rounded-bl-[30px] text-white mr-2">
-            Sang hello em
+          <div className="max-w-[80%] py-2 px-4 text-sm break-words bg-primary rounded-t-[30px] rounded-bl-[30px] text-white mr-2">
+            Test 1
           </div>
-          <div className="w-1/5 flex items-end">
+          <div className="w-[15%] flex items-end">
             <div
               className="w-full pt-[100%] bg-no-repeat bg-cover rounded-full bg-center"
               style={{
@@ -29,7 +29,7 @@ const Chat = () => {
         {/* ****** */}
 
         <div className="max-w-[80%] flex mr-auto mb-2">
-          <div className="w-1/5 flex items-end">
+          <div className="w-[15%] flex items-end">
             <div
               className="w-full pt-[100%] bg-no-repeat bg-cover rounded-full bg-center"
               style={{
@@ -38,8 +38,8 @@ const Chat = () => {
               }}
             ></div>
           </div>
-          <div className="max-w-[80%] p-2 break-words bg-[#aabed3] rounded-t-[30px] rounded-br-[30px] text-white ml-2">
-            My My
+          <div className="max-w-[80%] py-2 px-4 text-sm break-words bg-[#aabed3] rounded-t-[30px] rounded-br-[30px] text-white ml-2">
+          Test 2
           </div>
         </div>
       </div>
